@@ -21,11 +21,26 @@
             <a class="navbar-brand">Minutos</a>
         </div>
     </nav>
-    <section >
+    <section>
         {% block content %}
         {% endblock %}
     </section>
-    <footer ></footer>
+    <footer class="bd-footer py-5 mt-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a style="text-decoration:none;" href="#">
+                        Contact us
+                    </a>
+                </div>
+                <div class="col">
+                    <a style="text-decoration:none;" href="{% url 'privacy' %}">
+                        Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
