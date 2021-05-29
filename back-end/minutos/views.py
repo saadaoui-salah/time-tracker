@@ -5,3 +5,6 @@ def home_page(request):
 
 def privacy_page(request):
     return render(request, 'privacy.html')
+
+def plans_page(request):
+    return render(request, 'plans.html')
